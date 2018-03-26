@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- !DOCTYPE: määrittelee hypertekstidokumentin HTML5-tyyppiseksi. -->
+<html lang="fi"> <!-- kieli-attribuutti: suomi →
+<!-- HTML: Hypertekstisivun juurielementti -->
+<head>
+<!-- HEAD: Sisältää metatietoa -->
+  <title>Bootstrap 4 Example</title> <!-- Otsikko (näkyy yleensä nykyselaimen välilehdessä) -->
+  <meta charset="utf-8"> <!-- Määrittelee merkistökoodauksen -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ohjataan käyttäjälle näkyvää aluetta -->
+  <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> <!-- Linkitetään eli yhdistetään tämä hypertekstidokumentti Internetistä löytyvällä CSS-tyylimäärittelytiedostolla. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jQuery-kirjasto JavaScript-koodia varten. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> <!-- Popper JS lisätietolaatikoita varten. -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> <!-- Viimeisin koottu JavaScript -->
+</head>
+<!-- BODY: Elementti sisältää verkkosivun näkyvän sisällön, kuten uutisen: otsikko, ingressi, linkit ja leipätekstin. -->
+<body>
+
+<!-- DIV: Lohko tai osa verkkosivusta. CLASS: Määrittelee minkä tyyppinen lohko on kyseessä. Tämä on oleellista bootstrapin kannalta. --> <!-- Lisätään navigointipalkki ja logo siihen -->
+<div class="navbar navbar-expand-sm bg-dark navbar-dark"> <!-- ilman marginaalia: käytä luokkana “container-fluid”:ia -->  
+  <a class="navbar-brand" href="#">
+    <img src="img/bird.jpg" alt="Logo" style="width:40px;">
+  </a>
+<!-- Linkit navigointipalkissa -->
+  <ul class="navbar-nav">
+	<li class="nav-item">
+  	<a class="nav-link" href="#">Kotimaa</a>
+	</li>
+<li class="nav-item">
+  	<a class="nav-link" href="#">Ulkomaat</a>
+	</li>
+<li class="nav-item">
+  	<a class="nav-link" href="#">Politiikka</a>
+	</li>
+	<li class="nav-item">
+  	<a class="nav-link" href="#">Sää</a>
+	</li>
+	<li class="nav-item">
+  	<a class="nav-link" href="#">Urheilu</a>
+	</li>
+  </ul>
+</div>
+
+<!-- Tässä lohkossa teemme ruudukkojärjestelmän mukaisesti uutisten sisältöalueen ja sivupalkin muulle sisällölle.
+<div class="container"> <!-- ilman marginaalia: käytä luokkana “container-fluid”:ia -->  
+
+<!-- Sivusto jaetaan Bootstrapissa aina 12 osaan ja seuraavassa määritellään, kuinka monta osaa yksi elementti on sivustosta. -->
+<div class="row">
+	<!-- Pääosio -->
+  <div class="col-md-9"> <!-- Tähän kaikki osiomääritteet: värit, fontit, tyylit, tekstin keskitys, yms. -->
+	<!-- Typografia: Otsikkotasot -->
+		<!-- Ingressi --> 
+		<!-- Leipäteksti --> 
+		<p>Tekstiä…</p>
+</div>
+<!-- Sivupalkki -->
+  <div class="col-md-3">
+      <!-- Sisältö sivupalkkiin -->
+		<p>Tekstiä…</p>
+</div>
+</div>
+
+<h1>My First Bootstrap Page</h1> <!-- Otsikkotaso 1. -->
+  <p>This is some text.</p> <!-- Leipäteksti. -->
+</div>
+
+</body>
+</html>
