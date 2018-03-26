@@ -3,7 +3,7 @@
 <html lang="fi"> <!-- kieli-attribuutti: suomi -->
 <!-- HTML: Hypertekstisivun juurielementti -->
 <head>
-<!-- HEAD: Sisältää metatietoa -->
+  <!-- HEAD: Sisältää metatietoa -->
   <title>Bootstrap 4 Example</title> <!-- Otsikko (näkyy yleensä nykyselaimen välilehdessä) -->
   <meta charset="utf-8"> <!-- Määrittelee merkistökoodauksen -->
   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ohjataan käyttäjälle näkyvää aluetta -->
@@ -15,97 +15,97 @@
 <!-- BODY: Elementti sisältää verkkosivun näkyvän sisällön, kuten uutisen: otsikko, ingressi, linkit ja leipätekstin. -->
 <body>
 
-<!-- DIV: Lohko tai osa verkkosivusta. CLASS: Määrittelee minkä tyyppinen lohko on kyseessä. Tämä on oleellista bootstrapin kannalta. --> <!-- Lisätään navigointipalkki ja logo siihen -->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark"> <!-- ilman marginaalia: käytä luokkana “container-fluid”:ia -->  
-  <a class="navbar-brand" href="#">
-    <img src="img/bird.jpg" alt="Logo" style="width:40px;">
-  </a>
-<!-- Linkit navigointipalkissa -->
-  <ul class="navbar-nav">
-	<li class="nav-item">
-  	<a class="nav-link" href="#">Kotimaa</a>
-	</li>
-<li class="nav-item">
-  	<a class="nav-link" href="#">Ulkomaat</a>
-	</li>
-<li class="nav-item">
-  	<a class="nav-link" href="#">Politiikka</a>
-	</li>
-	<li class="nav-item">
-  	<a class="nav-link" href="#">Sää</a>
-	</li>
-	<li class="nav-item">
-  	<a class="nav-link" href="#">Urheilu</a>
-	</li>
-  </ul>
-</nav>
+  <!-- DIV: Lohko tai osa verkkosivusta. CLASS: Määrittelee minkä tyyppinen lohko on kyseessä. Tämä on oleellista bootstrapin kannalta. --> <!-- Lisätään navigointipalkki ja logo siihen -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"> <!-- ilman marginaalia: käytä luokkana “container-fluid”:ia -->  
+	<a class="navbar-brand" href="#">
+  	<img src="img/bird.jpg" alt="Logo" style="width:40px;">
+	</a>
+	<!-- Linkit navigointipalkissa -->
+	<ul class="navbar-nav">
+  	<li class="nav-item">
+    	<a class="nav-link" href="#">Kotimaa</a>
+  	</li>
+  	<li class="nav-item">
+    	<a class="nav-link" href="#">Ulkomaat</a>
+  	</li>
+  	<li class="nav-item">
+    	<a class="nav-link" href="#">Politiikka</a>
+  	</li>
+  	<li class="nav-item">
+    	<a class="nav-link" href="#">Sää</a>
+  	</li>
+  	<li class="nav-item">
+    	<a class="nav-link" href="#">Urheilu</a>
+  	</li>
+	</ul>
+  </nav>
 
-<!-- Tässä lohkossa teemme ruudukkojärjestelmän mukaisesti uutisten sisältöalueen ja sivupalkin muulle sisällölle. -->
-<div class="container"> <!-- ilman marginaalia: käytä luokkana “container-fluid”:ia -->  
+  <!-- Tässä lohkossa teemme ruudukkojärjestelmän mukaisesti uutisten sisältöalueen ja sivupalkin muulle sisällölle. -->
+  <div class="container"> <!-- ilman marginaalia: käytä luokkana “container-fluid”:ia -->  
 
-<!-- Sivusto jaetaan Bootstrapissa aina 12 osaan ja seuraavassa määritellään, kuinka monta osaa yksi elementti on sivustosta. -->
-<div class="row">
-	<!-- Pääosio -->
-  <section class="col-md-9" style="background-color:yellow;"> <!-- Tähän kaikki osiomääritteet: värit, fontit, tyylit, tekstin keskitys, yms. -->
-	<!-- Typografia: Otsikkotasot -->
-		<!-- Ingressi --> 
-		<!-- Leipäteksti --> 
-		<p>Kotimaa</p>
-		<article>
-			<h1>Otsikko</h1>
- 		<iframe width="560" height="315" src="https://www.youtube.com/embed/VYePn7NoDT0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			<h3>Ingressi</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-				 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-				 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-				 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </article>
-	<hr>
-		<article>
-			<h1>Otsikko</h1>
-				<div id="demo" class="carousel slide" data-ride="carousel">
- 					<div class="carousel-inner">
- 						<div class="carousel-item active">
- 							<img src="summer.jpg" alt="Kesäkuva">
- 						</div>
- 						<div class="carousel-item">
- 							<img src="nature.jpg" alt="Luonto">
- 						</div>
- 						<div class="carousel-item">
- 							<img src="sunset.jpg" alt="Auringonlasku">
- 						</div>
- 					</div>
+	<!-- Sivusto jaetaan Bootstrapissa aina 12 osaan ja seuraavassa määritellään, kuinka monta osaa yksi elementti on sivustosta. -->
+	<div class="row">
+  	<!-- Pääosio -->
+  	<section class="col-md-9" style="background-color:yellow;"> <!-- Tähän kaikki osiomääritteet: värit, fontit, tyylit, tekstin keskitys, yms. -->
+    	<!-- Typografia: Otsikkotasot -->
+    	<!-- Ingressi -->
+    	<!-- Leipäteksti -->
+    	<p>Kotimaa</p>
+    	<article>
+      	<h1>Otsikko</h1>
+      	<iframe width="560" height="315" src="https://www.youtube.com/embed/VYePn7NoDT0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      	<h3>Ingressi</h3>
+      	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+       	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+       	laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+       	voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+       	non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     	</article>
+     	<hr>
+     	<article>
+      	<h1>Otsikko</h1>
+      	<div id="demo" class="carousel slide" data-ride="carousel">
+       	<div class="carousel-inner">
+         	<div class="carousel-item active">
+           	<img src="summer.jpg" alt="Kesäkuva">
+         	</div>
+         	<div class="carousel-item">
+           	<img src="nature.jpg" alt="Luonto">
+         	</div>
+         	<div class="carousel-item">
+           	<img src="sunset.jpg" alt="Auringonlasku">
+         	</div>
+       	</div>
 
- 				<!-- Left and right controls -->
-  					<a class="carousel-control-prev" href="#demo" data-slide="prev">
-    					<span class="carousel-control-prev-icon"></span>
-  					</a>
-  					<a class="carousel-control-next" href="#demo" data-slide="next">
-    					<span class="carousel-control-next-icon"></span>
-  					</a>
- 				</div>  
+       	<!-- Left and right controls -->
+       	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+        	<span class="carousel-control-prev-icon"></span>
+      	</a>
+      	<a class="carousel-control-next" href="#demo" data-slide="next">
+        	<span class="carousel-control-next-icon"></span>
+      	</a>
+    	</div>  
 
-			<h3>Ingressi</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-				 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-				 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-				 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-				 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-     </article>
-</section>
-<!-- Sivupalkki -->
-  <aside class="col-md-3" style="background-color:green;">
-      <!-- Sisältö sivupalkkiin -->
-		<h2>Ajantasainen sää</h2>
-			<img src="https://cdn.fmi.fi/weather-observations/products/finland/frontpage_wx_obs-latest.png" alt="Suomen sää" style="max-width:100%;height:auto;">
+    	<h3>Ingressi</h3>
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+     	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+     	laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+     	voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+     	non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   	</article>
+ 	</section>
+ 	<!-- Sivupalkki -->
+ 	<aside class="col-md-3" style="background-color:green;">
+  	<!-- Sisältö sivupalkkiin -->
+  	<h2>Ajantasainen sää</h2>
+  	<img src="https://cdn.fmi.fi/weather-observations/products/finland/frontpage_wx_obs-latest.png" alt="Suomen sää" style="max-width:100%;height:auto;">
 
-</aside>
-</div>
+	</aside>
+  </div>
 </div>
 <!-- Alapalkki -->
 <footer style="background-color:gray;">
-	<p>Tampereen yliopisto, 2018: Santeri Taskinen, Arttu Ylhävuori ja Joni Sarikoski</p>
+  <p>Tampereen yliopisto, 2018: Santeri Taskinen, Arttu Ylhävuori ja Joni Sarikoski</p>
 </footer>
 
 </body>
