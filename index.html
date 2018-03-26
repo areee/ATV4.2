@@ -46,13 +46,14 @@
 <!-- Sivusto jaetaan Bootstrapissa aina 12 osaan ja seuraavassa määritellään, kuinka monta osaa yksi elementti on sivustosta. -->
 <div class="row">
 	<!-- Pääosio -->
-  <section class="col-md-9"> <!-- Tähän kaikki osiomääritteet: värit, fontit, tyylit, tekstin keskitys, yms. -->
+  <section class="col-md-9" style="background-color:yellow;"> <!-- Tähän kaikki osiomääritteet: värit, fontit, tyylit, tekstin keskitys, yms. -->
 	<!-- Typografia: Otsikkotasot -->
 		<!-- Ingressi --> 
 		<!-- Leipäteksti --> 
-		<p>Tekstiä…</p>
+		<p>Kotimaa</p>
 		<article>
 			<h1>Otsikko</h1>
+ 		<iframe width="560" height="315" src="https://www.youtube.com/embed/VYePn7NoDT0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			<h3>Ingressi</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 				 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -60,21 +61,31 @@
 				 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
 				 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </article>
+	<hr>
 		<article>
 			<h1>Otsikko</h1>
-			<div id="demo" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="summer.jpg" alt="Kesäkuva">
-    </div>
-    <div class="carousel-item">
-      <img src="nature.jpg" alt="Luonto">
-    </div>
-    <div class="carousel-item">
-      <img src="sunset.jpg" alt="Auringonlasku">
-    </div>
-  </div>
-    </div>  
+				<div id="demo" class="carousel slide" data-ride="carousel">
+ 					<div class="carousel-inner">
+ 						<div class="carousel-item active">
+ 							<img src="summer.jpg" alt="Kesäkuva">
+ 						</div>
+ 						<div class="carousel-item">
+ 							<img src="nature.jpg" alt="Luonto">
+ 						</div>
+ 						<div class="carousel-item">
+ 							<img src="sunset.jpg" alt="Auringonlasku">
+ 						</div>
+ 					</div>
+
+ 				<!-- Left and right controls -->
+  					<a class="carousel-control-prev" href="#demo" data-slide="prev">
+    					<span class="carousel-control-prev-icon"></span>
+  					</a>
+  					<a class="carousel-control-next" href="#demo" data-slide="next">
+    					<span class="carousel-control-next-icon"></span>
+  					</a>
+ 				</div>  
+
 			<h3>Ingressi</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 				 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -82,18 +93,20 @@
 				 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
 				 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
      </article>
-
 </section>
 <!-- Sivupalkki -->
-  <aside class="col-md-3">
+  <aside class="col-md-3" style="background-color:green;">
       <!-- Sisältö sivupalkkiin -->
-		<p>Tekstiä…</p>
+		<h2>Ajantasainen sää</h2>
+			<img src="https://cdn.fmi.fi/weather-observations/products/finland/frontpage_wx_obs-latest.png" alt="Suomen sää" style="max-width:100%;height:auto;">
+
 </aside>
 </div>
-
-<h1>My First Bootstrap Page</h1> <!-- Otsikkotaso 1. -->
-  <p>This is some text.</p> <!-- Leipäteksti. -->
 </div>
+<!-- Alapalkki -->
+<footer style="background-color:gray;">
+	<p>Tampereen yliopisto, 2018: Santeri Taskinen, Arttu Ylhävuori ja Joni Sarikoski</p>
+</footer>
 
 </body>
 </html>
