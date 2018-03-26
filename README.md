@@ -1,5 +1,5 @@
 # ATV4.2
 
-[https://areee.github.io/ATV4.2/](Mallisivusto)
+[Mallisivusto](https://areee.github.io/ATV4.2/)
 
-[https://github.com/areee/ATV4.2/wiki/](Kurssin wikisivu)
+[Kurssin wikisivu](https://github.com/areee/ATV4.2/wiki/)
